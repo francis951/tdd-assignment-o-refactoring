@@ -23,3 +23,4 @@ class Factorial:
         # for i in range(self.n, 0,  -1):
         #     num = num * i
         #     print(num)
+#In pair of Francis Murungi and Charlotte Akongo
