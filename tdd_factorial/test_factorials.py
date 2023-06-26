@@ -10,4 +10,13 @@ def test_factorial():
     """
     # Instantiate instance of a class
     answer = Factorial(4)
-    # accessing
+    # accessing the function
+    assert answer.factorials() == 24
+
+    answer = Factorial(6)
+    # accessing the function
+    assert answer.factorials() == 720
+
+    answer = Factorial(8)
+    # accessing the function
+    assert answer.factorials() == 40320
